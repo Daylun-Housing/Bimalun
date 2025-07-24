@@ -8,7 +8,7 @@ export default function Hero() {
                 {/* Content Body */}
                 <div className="relative my-12 overflow-hidden rounded-3xl bg-[#1a1a1a] min-h-[80vh]">
                     <div className="absolute inset-0 z-0">
-                        <video className="h-full w-full object-cover rounded-3xl" src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/project-uploads/4254d1a6-8437-4914-bbd4-820cecdf4c65/generated_videos/bird%27s-eye-view-of-a-futuristic-black--49b64ff2-20250716182257.mp4" autoPlay loop muted playsInline>
+                        <video className="h-full w-full object-cover rounded-3xl" src="/videos/location_overview.mp4" autoPlay loop muted playsInline>
                         </video>
                     </div>
                     <div className="absolute inset-0 z-10 bg-black/60 rounded-3xl">

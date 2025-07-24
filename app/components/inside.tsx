@@ -5,7 +5,7 @@ export default function Inside() {
             <section className="relative min-h-screen w-full overflow-hidden">
                 <div className="absolute inset-0 z-0">
                     <video 
-                        src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/project-uploads/4254d1a6-8437-4914-bbd4-820cecdf4c65/generated_videos/interior-view-of-a-clean%2c-futuristic-f-f7ffd817-20250716150236.mp4" 
+                        src="/videos/inside_factory_amr.mp4" 
                         className="h-full w-full object-cover" autoPlay loop muted playsInline>
                     </video>
                 </div>

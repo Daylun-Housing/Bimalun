@@ -24,13 +24,22 @@ export default function Footer() {
                         <p className="text-neutral-300 text-center mb-6 font-[var(--font-body)]">Transforming the Future of Modular Housing</p>
                         <ul className="transition-colors flex sm:flex-row flex-col text-neutral-400 list-none gap-6 mb-8">
                             <li className="list-none">
-                                <a className="transition-colors hover:text-[#00ff88] font-[var(--font-body)]" href="#">About</a>
+                                <a className="transition-colors hover:text-[#00ff88] font-[var(--font-body)]" href="/">Home</a>
                             </li>
                             <li className="list-none">
-                                <a className="transition-colors hover:text-[#00ff88] font-[var(--font-body)]" href="#">Innovation</a>
+                                <a className="transition-colors hover:text-[#00ff88] font-[var(--font-body)]" href="/Order">Order</a>
                             </li>
                             <li className="list-none">
-                                <a className="transition-colors hover:text-[#00ff88] font-[var(--font-body)]" href="#">Process</a>
+                                <a className="transition-colors hover:text-[#00ff88] font-[var(--font-body)]" href="#">Labratory</a>
+                            </li>
+                            <li className="list-none">
+                                <a className="transition-colors hover:text-[#00ff88] font-[var(--font-body)]" href="/D2M">D2M</a>
+                            </li>
+                            <li className="list-none">
+                                <a className="transition-colors hover:text-[#00ff88] font-[var(--font-body)]" href="#">Factory</a>
+                            </li>
+                            <li className="list-none">
+                                <a className="transition-colors hover:text-[#00ff88] font-[var(--font-body)]" href="#">Investors</a>
                             </li>
                             <li className="list-none">
                                 <a className="transition-colors hover:text-[#00ff88] font-[var(--font-body)]" href="#">Contact</a>

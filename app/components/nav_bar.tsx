@@ -23,20 +23,23 @@ export default function Nav_bar() {
                         </div>
                     </div>
                     <div className="hidden items-center gap-8 rounded-full border border-[#333333] bg-[#262626] px-8 py-4 lg:flex min-w-[600px] justify-center">
-                        <a className="font-[var(--font-body)] text-sm font-medium text-[#6b7280] transition duration-200 hover:text-[#00ff88] hover:scale-105" href="#">
+                        <a className="font-[var(--font-body)] text-sm font-medium text-[#6b7280] transition duration-200 hover:text-[#00ff88] hover:scale-105" href="/">
                             Home
                         </a>
-                        <a className="font-[var(--font-body)] text-sm font-medium text-[#6b7280] transition duration-200 hover:text-[#00ff88] hover:scale-105" href="#">
-                            Solutions
+                        <a className="font-[var(--font-body)] text-sm font-medium text-[#6b7280] transition duration-200 hover:text-[#00ff88] hover:scale-105" href="/Order">
+                            Order
                         </a>
                         <a className="font-[var(--font-body)] text-sm font-medium text-[#6b7280] transition duration-200 hover:text-[#00ff88] hover:scale-105" href="#">
-                            Technology
+                            Labratory
+                        </a>
+                        <a className="font-[var(--font-body)] text-sm font-medium text-[#6b7280] transition duration-200 hover:text-[#00ff88] hover:scale-105" href="/D2M">
+                            D2M
                         </a>
                         <a className="font-[var(--font-body)] text-sm font-medium text-[#6b7280] transition duration-200 hover:text-[#00ff88] hover:scale-105" href="#">
-                            Projects
+                            Factory
                         </a>
                         <a className="font-[var(--font-body)] text-sm font-medium text-[#6b7280] transition duration-200 hover:text-[#00ff88] hover:scale-105" href="#">
-                            About
+                            Investors
                         </a>
                         <a className="font-[var(--font-body)] text-sm font-medium text-[#6b7280] transition duration-200 hover:text-[#00ff88] hover:scale-105" href="#">
                             Contact
