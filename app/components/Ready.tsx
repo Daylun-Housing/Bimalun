@@ -13,13 +13,12 @@ export default function Ready() {
                             project with innovative, sustainable, and efficient solutions.
                         </p>
                         <div className="mt-10 flex items-center justify-center gap-x-6">
-                            <a href="#" className="rounded-md bg-[#00ff88] px-3.5 py-2.5 text-sm font-semibold text-[#1a1a1a] 
+                            <a href="/Order" className="rounded-md bg-[#00ff88] px-3.5 py-2.5 text-sm font-semibold text-[#1a1a1a] 
                                                     hover:bg-[#00ff88]/90 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#00ff88]">
-                                Get Started Today
+                                Buy our Products
                             </a>
-                            <a href="#" className="text-sm/6 font-semibold text-white hover:text-gray-300">
-                                Schedule a Factory Tour 
-                                <span className="ml-2" aria-hidden="true">→</span>
+                            <a href="/Investors" className="text-sm/6 font-semibold text-white hover:text-gray-300 border border-[#6b7280] rounded-md px-3.5 py-2.5">
+                                Invest in our Project
                             </a>
                         </div>
                     </div>

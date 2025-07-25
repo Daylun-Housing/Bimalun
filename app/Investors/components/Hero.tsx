@@ -8,7 +8,7 @@ export default function Hero() {
                 {/* Content Body */}
                 <div className="relative my-12 overflow-hidden rounded-3xl bg-[#1a1a1a] min-h-[80vh]">
                     <div className="absolute inset-0 z-0">
-                        <video className="h-full w-full object-cover rounded-3xl" src="/videos/building_d2m.mp4" autoPlay loop muted playsInline>
+                        <video className="h-full w-full object-cover rounded-3xl" src="/videos/collaboration.mp4" autoPlay loop muted playsInline>
                         </video>
                     </div>
                     <div className="absolute inset-0 z-10 bg-black/60 rounded-3xl">
@@ -33,7 +33,7 @@ export default function Hero() {
                                 <stop stopColor="#00ff88">
                                 </stop>
                                 <stop offset="1" stopOpacity="0">
-                                    </stop>
+                                </stop>
                             </linearGradient>
                             <linearGradient id="paint1_linear_254_143" x1="-7.42412e-06" y1="0.500009" x2="405" y2="0.500009" gradientUnits="userSpaceOnUse">
                                 <stop stopColor="#00ff88">
@@ -175,30 +175,20 @@ export default function Hero() {
                     </div>
                     <div className="relative z-20 flex flex-col items-center justify-center overflow-hidden rounded-3xl p-4 md:p-12 min-h-[80vh]">
                         <div style={{opacity: 1, transform: 'none'}}>
-                            <a className="flex items-center gap-1 rounded-full border border-[#00ff88] bg-[#00ff88]/10 px-4 py-1 text-center text-sm text-[#00ff88] backdrop-blur-sm" href="#">
-                            <span>D2M - Design to Manufacturing</span>
+                            <a className="flex items-center gap-1 rounded-full border border-[#00ff88] bg-[#00ff88]/10 px-4 py-1 text-center text-sm text-[#00ff88] backdrop-blur-sm" href="">
+                            <span>Investors</span>
                             </a>
-                            </div>
-                            <h1 className="font-[var(--font-display)] font-bold bg-gradient-to-b from-white to-[#6b7280] bg-clip-text py-4 text-center text-2xl text-transparent text-[#b5bac4] md:text-4xl lg:text-7xl" style={{opacity: 1, transform: 'none'}}>D2M<br /> is Coming Soon</h1>
-                            <p className="font-[var(--font-body)] mx-auto max-w-2xl py-4 text-left text-base text-[#b5bac4] md:text-lg" style={{opacity: 1, transform: 'none',}}>
-                                We’re excited to announce that our House Builder platform is currently in development — a powerful, all-in-one tool designed to revolutionize how you plan and build your home. Our team, led by Daylun, is working hard on an innovative system that will allow you to:
-                            </p>
-                            <ul className="list-decimal font-[var(--font-body)] mx-auto max-w-2xl py-4 text-left text-base text-[#b5bac4] md:text-lg" style={{opacity: 1, transform: 'none',}}>
-                                <li>Enter your custom house size</li>
-                                <li>Instantly generate a 3D model file</li>
-                                <li>Receive complete engineering drawings for permitting and construction</li>
-                                <li>Get a 3D interior design model to collaborate with your architect or designer</li>
-                                <li>Automatically place an order in our factory, with</li>
-                                <li>Real-time pricing based on your selections and specifications</li>
-                            </ul>
-                            <p className="font-[var(--font-body)] mx-auto max-w-2xl py-4 text-left text-base text-[#b5bac4] md:text-lg" style={{opacity: 1, transform: 'none',}}>
-                                Whether you’re an architect, a designer, or planning your dream home; this tool will streamline everything from concept to construction. Stay tuned. The future of home building is almost here.
-                            </p>
-                            <div className="flex flex-col items-center gap-4 py-4 sm:flex-row" style={{opacity: 1, transform: 'none'}}>
-                                {/*<a className="w-48 gap-1 rounded-full border border-[#00ff88] bg-[#00ff88] px-6 py-3 text-center text-sm font-medium text-[#1a1a1a] transition-all hover:bg-[#00ff88]/90 hover:scale-105" href="#">Discover the Future</a>
-                                <a className="w-48 gap-1 rounded-full border border-[#333333] bg-transparent px-6 py-3 text-center text-sm font-medium text-white transition-all hover:bg-[#333333]/20 hover:scale-105" href="#">
-                                        Learn How It Works
-                                </a>*/}
+                        </div>
+                        <h1 className="font-[var(--font-display)] font-bold bg-gradient-to-b from-white to-[#6b7280] bg-clip-text py-4 text-center text-2xl text-transparent text-[#b5bac4] md:text-4xl lg:text-7xl" style={{opacity: 1, transform: 'none'}}>Welcome<br />Investors</h1>
+                        <p className="font-[var(--font-body)] mx-auto max-w-2xl py-4 text-center text-base text-[#b5bac4] md:text-lg" style={{opacity: 1, transform: 'none',}}>
+                            Bimalun is dedicated to producing sustainable and affordable construction materials. With the growing demand for affordable housing and 
+                            new sustainability requirements, Bimalun can leverage this moment to grow and expand.
+                        </p>
+                        <div className="flex flex-col items-center gap-4 py-4 sm:flex-row" style={{opacity: 1, transform: 'none'}}>
+                            <a className="w-35 gap-1 rounded-full border border-[#00ff88] bg-[#00ff88] px-3 py-3 text-center text-sm font-medium text-[#1a1a1a] transition-all hover:bg-[#00ff88]/90 hover:scale-105" href="mailto:info@daylun.ca">Contact Us</a>
+                            {/*<a className="w-48 gap-1 rounded-full border border-[#333333] bg-transparent px-6 py-3 text-center text-sm font-medium text-white transition-all hover:bg-[#333333]/20 hover:scale-105" href="#">
+                                    Learn How It Works
+                            </a>*/}
                         </div>
                     </div>
                 </div>

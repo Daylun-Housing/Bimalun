@@ -1,5 +1,5 @@
 import Hero from "./components/Hero";
-import Socials from "./components/Socials";
+import PdfPreview from "./components/Pitch_Preview";
 import Footer from "../components/Footer";
 
 export default function Page() {
@@ -7,7 +7,7 @@ export default function Page() {
 
         <div className="min-h-screen bg-[#1a1a1a]">
             <Hero />
-            <Socials />
+            <PdfPreview />
             <Footer />
         </div>
     );

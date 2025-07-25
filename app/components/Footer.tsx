@@ -30,6 +30,9 @@ export default function Footer() {
                                 <a className="transition-colors hover:text-[#00ff88] font-[var(--font-body)]" href="/Order">Order</a>
                             </li>
                             <li className="list-none">
+                                <a className="transition-colors hover:text-[#00ff88] font-[var(--font-body)]" href="https://daylun.myshopify.com/">Store</a>
+                            </li>
+                            <li className="list-none">
                                 <a className="transition-colors hover:text-[#00ff88] font-[var(--font-body)]" href="#">Labratory</a>
                             </li>
                             <li className="list-none">
@@ -39,10 +42,10 @@ export default function Footer() {
                                 <a className="transition-colors hover:text-[#00ff88] font-[var(--font-body)]" href="#">Factory</a>
                             </li>
                             <li className="list-none">
-                                <a className="transition-colors hover:text-[#00ff88] font-[var(--font-body)]" href="#">Investors</a>
+                                <a className="transition-colors hover:text-[#00ff88] font-[var(--font-body)]" href="/Investors">Investors</a>
                             </li>
                             <li className="list-none">
-                                <a className="transition-colors hover:text-[#00ff88] font-[var(--font-body)]" href="#">Contact</a>
+                                <a className="transition-colors hover:text-[#00ff88] font-[var(--font-body)]" href="/Contact">Contact</a>
                             </li>
                         </ul>
                         <div className="flex flex-col items-center gap-2 mb-8">

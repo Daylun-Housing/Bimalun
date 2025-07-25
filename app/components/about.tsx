@@ -26,12 +26,12 @@ export default function About() {
                                 </dt>
                                 <dd className="mt-1 flex flex-auto flex-col text-base/7 text-gray-300 font-[var(--font-body)]">
                                     <p className="flex-auto">Precision-engineered components built with cutting-edge automation and quality control systems</p>
-                                    <p className="mt-6">
+                                    {/*<p className="mt-6">
                                         <a href="#" className="text-sm/6 font-semibold text-[#00ff88] hover:text-[#00ff88]/80 font-[var(--font-display)]">
                                         Learn more 
                                         <span aria-hidden="true">→</span>
                                         </a>
-                                    </p>
+                                    </p>*/}
                                 </dd>
                             </div>
                             <div className="flex flex-col">
@@ -46,12 +46,12 @@ export default function About() {
                                 </dt>
                                 <dd className="mt-1 flex flex-auto flex-col text-base/7 text-gray-300 font-[var(--font-body)]">
                                     <p className="flex-auto">Every process designed for minimal environmental impact and maximum resource efficiency</p>
-                                    <p className="mt-6">
+                                    {/*<p className="mt-6">
                                         <a href="#" className="text-sm/6 font-semibold text-[#00ff88] hover:text-[#00ff88]/80 font-[var(--font-display)]">
                                             Learn more 
                                             <span aria-hidden="true">→</span>
                                         </a>
-                                    </p>
+                                    </p>*/}
                                 </dd>
                             </div>
                             <div className="flex flex-col">
@@ -87,12 +87,12 @@ export default function About() {
                                 </dt>
                                 <dd className="mt-1 flex flex-auto flex-col text-base/7 text-gray-300 font-[var(--font-body)]">
                                     <p className="flex-auto">Flexible, scalable designs that adapt to any vision while maintaining structural integrity</p>
-                                    <p className="mt-6">
+                                    {/*<p className="mt-6">
                                         <a href="#" className="text-sm/6 font-semibold text-[#00ff88] hover:text-[#00ff88]/80 font-[var(--font-display)]">
                                             Learn more 
                                             <span aria-hidden="true">→</span>
                                         </a>
-                                    </p>
+                                    </p>*/}
                                 </dd>
                             </div>
                         </dl>
