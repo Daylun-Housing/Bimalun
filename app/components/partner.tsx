@@ -12,7 +12,7 @@ export default function Partner() {
                             
                             <p className="text-lg text-gray-400 max-w-2xl mx-auto" 
                                 style={{fontFamily:'var(--font-body)'}}>
-                                    Trusted by industry leaders who share our vision for the future of modular housing
+                                    Trusted by industry leaders who share our vision for the future of pre-engineered housing
                             </p>
                     </div>
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12">
@@ -24,7 +24,7 @@ export default function Partner() {
                                     <div className="relative mb-6" style={{transform: 'none'}}>
                                         <div className="w-full h-24 flex items-center justify-center bg-white rounded-lg 
                                             overflow-hidden mb-4">
-                                            <img src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/project-uploads/4254d1a6-8437-4914-bbd4-820cecdf4c65/generated_images/bathurst-development-company-logo%2c-pro-309d849f-20250716182313.jpg?" alt="Bathurst Development logo" className="max-w-full max-h-full object-contain"/>
+                                            <img src="/Bathurst_Development.png" alt="Bathurst Development logo" className="max-w-full max-h-full object-contain"/>
                                         </div>
                                         <div className="absolute inset-0 bg-[#00ff88] opacity-0 
                                                         group-hover:opacity-10 transition-opacity duration-300 rounded-lg" 
@@ -50,7 +50,7 @@ export default function Partner() {
                                     <div className="relative mb-6" style={{transform: 'none'}}>
                                         <div className="w-full h-24 flex items-center justify-center bg-white rounded-lg 
                                                         overflow-hidden mb-4">
-                                            <img src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/project-uploads/4254d1a6-8437-4914-bbd4-820cecdf4c65/generated_images/next-generation-manufacturing-canada-log-d51784b3-20250716182321.jpg?" alt="Next Generation Manufacturing Canada logo" className="max-w-full max-h-full object-contain"/>
+                                            <img src="/NGEN.jpg" alt="Next Generation Manufacturing Canada logo" className="max-w-full max-h-full object-contain"/>
                                         </div>
                                         <div className="absolute inset-0 bg-[#00ff88] opacity-0 group-hover:opacity-10 transition-opacity duration-300 rounded-lg" 
                                             style={{opacity: 0}}>
@@ -74,7 +74,7 @@ export default function Partner() {
                                 <div data-slot="card-content" className="p-8 text-center">
                                     <div className="relative mb-6" style={{transform: 'none'}}>
                                         <div className="w-full h-24 flex items-center justify-center bg-white rounded-lg overflow-hidden mb-4">
-                                            <img src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/project-uploads/4254d1a6-8437-4914-bbd4-820cecdf4c65/generated_images/mars-discovery-district-logo%2c-innovati-2d721975-20250716182329.jpg?" alt="MaRS Discovery District logo" className="max-w-full max-h-full object-contain"/>
+                                            <img src="MaRS.png" alt="MaRS Discovery District logo" className="max-w-full max-h-full object-contain"/>
                                         </div>
                                         <div className="absolute inset-0 bg-[#00ff88] opacity-0 group-hover:opacity-10 transition-opacity duration-300 
                                                     rounded-lg" 

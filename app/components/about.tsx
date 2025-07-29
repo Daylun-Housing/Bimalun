@@ -7,7 +7,7 @@ export default function About() {
                 <div className="mx-auto max-w-7xl px-6 lg:px-8">
                     <div className="mx-auto max-w-2xl lg:mx-0">
                         <h2 className="text-4xl font-bold tracking-tight text-pretty text-white sm:text-5xl font-[var(--font-display)]">About the Bimalun Factory</h2>
-                        <p className="mt-6 text-lg/8 text-gray-300 font-[var(--font-body)]">We're revolutionizing the construction industry through advanced modular manufacturing, sustainable practices, and innovative design. Our state-of-the-art facility produces high-quality prefabricated housing components that assemble into beautiful, efficient homes.</p>
+                        <p className="mt-6 text-lg/8 text-gray-300 font-[var(--font-body)]">We're revolutionizing the construction industry through advanced pre-engineered manufacturing, sustainable practices, and innovative design. Our state-of-the-art facility produces high-quality prefabricated housing components that assemble into beautiful, efficient homes.</p>
                     </div>
                     <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none">
                         <dl className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-3">
@@ -83,7 +83,7 @@ export default function About() {
                                             <path d="M12 13.5V8">
                                             </path>
                                         </svg>
-                                    </div>Modular Excellence
+                                    </div>Pre-Engineered Excellence
                                 </dt>
                                 <dd className="mt-1 flex flex-auto flex-col text-base/7 text-gray-300 font-[var(--font-body)]">
                                     <p className="flex-auto">Flexible, scalable designs that adapt to any vision while maintaining structural integrity</p>

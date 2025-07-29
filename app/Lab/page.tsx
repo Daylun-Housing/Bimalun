@@ -1,7 +1,9 @@
 import Nav_bar from "../components/nav_bar";
 import Hero from "./components/Hero";
-import PdfPreview from "./components/Pitch_Preview";
-import Projects from "./components/Projects";
+import Goals from "./components/Goals";
+import Yukon from "./components/Yukon";
+import Highlight from "./components/Highlight";
+import Institutions from "./components/Institutions";
 import Footer from "../components/Footer";
 
 export default function Page() {
@@ -10,8 +12,10 @@ export default function Page() {
         <div className="min-h-screen bg-[#1a1a1a]">
             <Nav_bar />
             <Hero />
-            <PdfPreview />
-            <Projects />
+            <Goals />
+            <Yukon />
+            <Highlight />
+            <Institutions />
             <Footer />
         </div>
     );

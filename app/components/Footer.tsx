@@ -21,7 +21,7 @@ export default function Footer() {
                                 <span className="font-[var(--font-display)] font-bold text-white text-lg">Bimalun</span>
                             </a>
                         </div>
-                        <p className="text-neutral-300 text-center mb-6 font-[var(--font-body)]">Transforming the Future of Modular Housing</p>
+                        <p className="text-neutral-300 text-center mb-6 font-[var(--font-body)]">Transforming the Future of Pre-Engineered Housing</p>
                         <ul className="transition-colors flex sm:flex-row flex-col text-neutral-400 list-none gap-6 mb-8">
                             <li className="list-none">
                                 <a className="transition-colors hover:text-[#00ff88] font-[var(--font-body)]" href="/">Home</a>

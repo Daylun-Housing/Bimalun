@@ -6,19 +6,18 @@ export default function Ready() {
                 <div className="px-6 py-24 sm:px-6 sm:py-32 lg:px-8">
                     <div className="mx-auto max-w-2xl text-center">
                         <h2 className="text-4xl font-bold tracking-tight text-balance text-white sm:text-5xl font-[var(--font-display)]">
-                            Ready to Build the Future?
+                            Ready to Innovate Together?
                         </h2>
                         <p className="mx-auto mt-6 max-w-xl text-lg/8 text-pretty text-[#6b7280] font-[var(--font-body)]">
-                            Join the revolution in pre-engineered housing. Contact us to learn how Bimalun can transform your next construction 
-                            project with innovative, sustainable, and efficient solutions.
+                            Daylun is currently interested in partnering with forward-thinking construction industry 
+                            experts and financial investors to work together in developing the Yukon Factory as well 
+                            as in future projects. We are looking to collaborate to revolutionize the construction 
+                            industry by ensuring that projects are both sustainable and affordable.
                         </p>
                         <div className="mt-10 flex items-center justify-center gap-x-6">
-                            <a href="/Order" className="rounded-md bg-[#00ff88] px-3.5 py-2.5 text-sm font-semibold text-[#1a1a1a] 
+                            <a href="mailto:info@daylun.ca" className="rounded-md bg-[#00ff88] px-3.5 py-2.5 text-sm font-semibold text-[#1a1a1a] 
                                                     hover:bg-[#00ff88]/90 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#00ff88]">
-                                Buy our Products
-                            </a>
-                            <a href="/Investors" className="text-sm/6 font-semibold text-white hover:text-gray-300 border border-[#6b7280] rounded-md px-3.5 py-2.5">
-                                Invest in our Project
+                                Connected With Us
                             </a>
                         </div>
                     </div>

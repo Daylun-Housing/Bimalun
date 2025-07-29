@@ -1,4 +1,3 @@
-
 export default function Hero() {
     return (
         <div className="relative h-full min-h-screen w-full bg-[#1a1a1a]">
@@ -6,7 +5,7 @@ export default function Hero() {
                 {/* Content Body */}
                 <div className="relative my-12 overflow-hidden rounded-3xl bg-[#1a1a1a] min-h-[80vh]">
                     <div className="absolute inset-0 z-0">
-                        <video className="h-full w-full object-cover rounded-3xl" src="/videos/contact_video.mp4" autoPlay loop muted playsInline>
+                        <video className="h-full w-full object-cover rounded-3xl" src="/videos/Factory_Showcase.mp4" autoPlay loop muted playsInline>
                         </video>
                     </div>
                     <div className="absolute inset-0 z-10 bg-black/60 rounded-3xl">
@@ -174,12 +173,15 @@ export default function Hero() {
                     <div className="relative z-20 flex flex-col items-center justify-center overflow-hidden rounded-3xl p-4 md:p-12 min-h-[80vh]">
                         <div style={{opacity: 1, transform: 'none'}}>
                             <a className="flex items-center gap-1 rounded-full border border-[#00ff88] bg-[#00ff88]/10 px-4 py-1 text-center text-sm text-[#00ff88] backdrop-blur-sm" href="#">
-                            <span>Contact</span>
+                            <span>The Factory</span>
                             </a>
                             </div>
-                            <h1 className="font-[var(--font-display)] font-bold bg-gradient-to-b from-white to-[#6b7280] bg-clip-text py-4 text-center text-2xl text-transparent text-[#b5bac4] md:text-4xl lg:text-7xl" style={{opacity: 1, transform: 'none'}}>Get in Touch</h1>
+                            <h1 className="font-[var(--font-display)] font-bold bg-gradient-to-b from-white to-[#6b7280] bg-clip-text py-4 text-center text-2xl text-transparent text-[#b5bac4] md:text-4xl lg:text-7xl" style={{opacity: 1, transform: 'none'}}>Welcome<br /> to the Factory</h1>
                             <p className="font-[var(--font-body)] mx-auto max-w-2xl py-4 text-left text-base text-[#b5bac4] md:text-lg" style={{opacity: 1, transform: 'none',}}>
-                                We would love to hear from you! Follow us on our socials. 
+                                Having recieved the Factory Innovation and NGen grant, Bimalun is currently constructing 
+                                the micro-factory in Yukon. This factory will be revolutionary - by leveraging AI 
+                                and automation, this factory is projected to reduce costs by 30-50%, and increase production 
+                                speed by 30%.
                             </p>
                             <div className="flex flex-col items-center gap-4 py-4 sm:flex-row" style={{opacity: 1, transform: 'none'}}>
                                 {/*<a className="w-48 gap-1 rounded-full border border-[#00ff88] bg-[#00ff88] px-6 py-3 text-center text-sm font-medium text-[#1a1a1a] transition-all hover:bg-[#00ff88]/90 hover:scale-105" href="#">Discover the Future</a>

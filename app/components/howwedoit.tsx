@@ -36,7 +36,7 @@ export default function How() {
                                 <p className="px-2">Design &amp; Planning</p>
                             </dt> 
                             <dd className="inline text-white font-[var(--font-body)]">
-                                Custom architectural plans optimized for modular construction
+                                Custom architectural plans optimized for pre-engineered construction
                             </dd>
                         </div>
                         <div className="relative pl-16">
@@ -142,7 +142,7 @@ export default function How() {
                                 <p className="px-2">Final Assembly</p>
                             </dt> 
                             <dd className="inline text-white font-[var(--font-body)] ">
-                                On-site installation completes your modular housing solution
+                                On-site installation completes your pre-engineered housing solution
                             </dd>
                         </div>
                     </dl>

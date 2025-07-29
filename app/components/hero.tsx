@@ -1,10 +1,7 @@
-import Nav_bar from "./nav_bar";
-
 export default function Hero() {
     return (
         <div className="relative h-full min-h-screen w-full bg-[#1a1a1a]">
             <div className="relative z-20 mx-auto max-w-7xl px-4 py-20 md:px-8 lg:px-4">
-                <Nav_bar />
                 {/* Content Body */}
                 <div className="relative my-12 overflow-hidden rounded-3xl bg-[#1a1a1a] min-h-[80vh]">
                     <div className="absolute inset-0 z-0">
@@ -183,8 +180,8 @@ export default function Hero() {
                             </svg>
                             </a>
                             </div>
-                            <h1 className="font-[var(--font-display)] font-bold bg-gradient-to-b from-white to-[#6b7280] bg-clip-text py-4 text-center text-2xl text-transparent md:text-4xl lg:text-7xl" style={{opacity: 1, transform: 'none'}}>Transforming the Future <br /> of Modular Housing</h1>
-                            <p className="font-[var(--font-body)] mx-auto max-w-2xl py-4 text-center text-base text-[#6b7280] md:text-lg" style={{opacity: 1, transform: 'none',}}>Revolutionary prefabricated housing solutions that combine cutting-edge technology with environmental responsibility. Zero waste. Maximum efficiency. Unlimited possibilities.</p>
+                            <h1 className="font-[var(--font-display)] font-bold bg-gradient-to-b from-white to-[#b2b7c2] bg-clip-text py-4 text-center text-2xl text-transparent md:text-4xl lg:text-7xl" style={{opacity: 1, transform: 'none'}}>Transforming the Future <br /> of Pre-Engineered Housing</h1>
+                            <p className="font-[var(--font-body)] mx-auto max-w-2xl py-4 text-center text-base text-white md:text-lg" style={{opacity: 1, transform: 'none',}}>Revolutionary prefabricated housing solutions that combine cutting-edge technology with environmental responsibility. Zero waste. Maximum efficiency. Unlimited possibilities.</p>
                             <div className="flex flex-col items-center gap-4 py-4 sm:flex-row" style={{opacity: 1, transform: 'none'}}>
                                 <a className="w-48 gap-1 rounded-full border border-[#00ff88] bg-[#00ff88] px-6 py-3 text-center text-sm font-medium text-[#1a1a1a] transition-all hover:bg-[#00ff88]/90 hover:scale-105" href="#">Discover the Future</a>
                                 <a className="w-48 gap-1 rounded-full border border-[#333333] bg-transparent px-6 py-3 text-center text-sm font-medium text-white transition-all hover:bg-[#333333]/20 hover:scale-105" href="#">

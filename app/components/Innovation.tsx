@@ -83,7 +83,7 @@ export default function Innovation() {
                                     </h3>
                                 </div>
                                 <p className="text-sm md:text-base text-[#6b7280] font-[var(--font-body)]">
-                                    Cutting-edge aesthetics meet functional innovation in every modular component
+                                    Cutting-edge aesthetics meet functional innovation in every pre-engineered component
                                 </p>
                             </div>
                         </div>
