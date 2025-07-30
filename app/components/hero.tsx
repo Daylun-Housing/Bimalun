@@ -172,19 +172,19 @@ export default function Hero() {
                     </div>
                     <div className="relative z-20 flex flex-col items-center justify-center overflow-hidden rounded-3xl p-4 md:p-12 min-h-[80vh]">
                         <div style={{opacity: 1, transform: 'none'}}>
-                            <a className="flex items-center gap-1 rounded-full border border-[#00ff88] bg-[#00ff88]/10 px-4 py-1 text-center text-sm text-[#00ff88] backdrop-blur-sm" href="#">
-                            <span>Revolutionary Technology</span>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-arrow-right h-4 w-4 text-[#00ff88]" aria-hidden="true">
-                            <path d="M5 12h14"></path>
-                            <path d="m12 5 7 7-7 7"></path>
-                            </svg>
+                            <a className="flex items-center gap-1 rounded-full border border-[#00ff88] bg-[#00ff88]/10 px-4 py-1 text-center text-sm text-[#00ff88] backdrop-blur-sm" href="./">
+                                <span>Revolutionary Technology</span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-arrow-right h-4 w-4 text-[#00ff88]" aria-hidden="true">
+                                    <path d="M5 12h14"></path>
+                                    <path d="m12 5 7 7-7 7"></path>
+                                </svg>
                             </a>
                             </div>
                             <h1 className="font-[var(--font-display)] font-bold bg-gradient-to-b from-white to-[#b2b7c2] bg-clip-text py-4 text-center text-2xl text-transparent md:text-4xl lg:text-7xl" style={{opacity: 1, transform: 'none'}}>Transforming the Future <br /> of Pre-Engineered Housing</h1>
                             <p className="font-[var(--font-body)] mx-auto max-w-2xl py-4 text-center text-base text-white md:text-lg" style={{opacity: 1, transform: 'none',}}>Revolutionary prefabricated housing solutions that combine cutting-edge technology with environmental responsibility. Zero waste. Maximum efficiency. Unlimited possibilities.</p>
                             <div className="flex flex-col items-center gap-4 py-4 sm:flex-row" style={{opacity: 1, transform: 'none'}}>
-                                <a className="w-48 gap-1 rounded-full border border-[#00ff88] bg-[#00ff88] px-6 py-3 text-center text-sm font-medium text-[#1a1a1a] transition-all hover:bg-[#00ff88]/90 hover:scale-105" href="#">Discover the Future</a>
-                                <a className="w-48 gap-1 rounded-full border border-[#333333] bg-transparent px-6 py-3 text-center text-sm font-medium text-white transition-all hover:bg-[#333333]/20 hover:scale-105" href="#">
+                                <a className="w-48 gap-1 rounded-full border border-[#00ff88] bg-[#00ff88] px-6 py-3 text-center text-sm font-medium text-[#1a1a1a] transition-all hover:bg-[#00ff88]/90 hover:scale-105" href="/Lab">Discover the Future</a>
+                                <a className="w-48 gap-1 rounded-full border border-[#333333] bg-transparent px-6 py-3 text-center text-sm font-medium text-white transition-all hover:bg-[#333333]/20 hover:scale-105" href="/Factory">
                                         Learn How It Works
                             </a>
                         </div>

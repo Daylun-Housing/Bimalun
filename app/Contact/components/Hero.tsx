@@ -173,7 +173,7 @@ export default function Hero() {
                     </div>
                     <div className="relative z-20 flex flex-col items-center justify-center overflow-hidden rounded-3xl p-4 md:p-12 min-h-[80vh]">
                         <div style={{opacity: 1, transform: 'none'}}>
-                            <a className="flex items-center gap-1 rounded-full border border-[#00ff88] bg-[#00ff88]/10 px-4 py-1 text-center text-sm text-[#00ff88] backdrop-blur-sm" href="#">
+                            <a className="flex items-center gap-1 rounded-full border border-[#00ff88] bg-[#00ff88]/10 px-4 py-1 text-center text-sm text-[#00ff88] backdrop-blur-sm" href="#top">
                             <span>Contact</span>
                             </a>
                             </div>

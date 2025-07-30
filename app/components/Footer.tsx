@@ -33,13 +33,13 @@ export default function Footer() {
                                 <a className="transition-colors hover:text-[#00ff88] font-[var(--font-body)]" href="https://daylun.myshopify.com/">Store</a>
                             </li>
                             <li className="list-none">
-                                <a className="transition-colors hover:text-[#00ff88] font-[var(--font-body)]" href="#">Labratory</a>
+                                <a className="transition-colors hover:text-[#00ff88] font-[var(--font-body)]" href="/Lab">Labratory</a>
                             </li>
                             <li className="list-none">
                                 <a className="transition-colors hover:text-[#00ff88] font-[var(--font-body)]" href="/D2M">D2M</a>
                             </li>
                             <li className="list-none">
-                                <a className="transition-colors hover:text-[#00ff88] font-[var(--font-body)]" href="#">Factory</a>
+                                <a className="transition-colors hover:text-[#00ff88] font-[var(--font-body)]" href="/Factory">Factory</a>
                             </li>
                             <li className="list-none">
                                 <a className="transition-colors hover:text-[#00ff88] font-[var(--font-body)]" href="/Investors">Investors</a>
@@ -52,7 +52,7 @@ export default function Footer() {
                             <a className="text-[#00ff88] hover:text-[#00ff88]/80 transition-colors font-[var(--font-body)]" 
                                 href="mailto:info@daylun.ca">info@daylun.ca
                             </a>
-                            <p className="text-neutral-400 font-[var(--font-body)]">Building Tomorrow, Today</p>
+                            <p className="text-neutral-400 font-[var(--font-body)]"></p>
                         </div>
                         <div
                     style={{

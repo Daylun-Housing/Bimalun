@@ -58,11 +58,11 @@ export default function Partner() {
                                     </div>
                                     <h3 className="text-xl font-bold text-white mb-3 group-hover:text-[#00ff88] transition-colors duration-300" 
                                         style={{fontFamily:'var(--font-display)'}}>
-                                        Next Generation Manufacturing Canada
+                                        Next Generation Manufacturing 
                                     </h3>
                                     <p className="text-gray-400 group-hover:text-gray-300 transition-colors duration-300" 
                                         style={{fontFamily:'var(--font-body)'}}>
-                                        Advancing Canadian manufacturing innovation
+                                        Advancing Canadian manufacturing
                                     </p>
                                 </div>
                             </div>
