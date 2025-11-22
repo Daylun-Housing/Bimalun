@@ -1,4 +1,11 @@
+'use client';
+
+import { useState } from 'react';
+import PitchDeckModal from './PitchDeckModal';
+
 export default function Hero() {
+    const [isModalOpen, setIsModalOpen] = useState(false);
+
     return (
         <div className="relative h-full min-h-screen w-full bg-[#1a1a1a]">
             <div className="relative z-20 mx-auto max-w-7xl px-4 py-20 md:px-8 lg:px-4">
@@ -186,8 +193,15 @@ export default function Hero() {
                                 <a className="w-48 gap-1 rounded-full border border-[#00ff88] bg-[#00ff88] px-6 py-3 text-center text-sm font-medium text-[#1a1a1a] transition-all hover:bg-[#00ff88]/90 hover:scale-105" href="/Lab">Discover the Future</a>
                                 <a className="w-48 gap-1 rounded-full border border-[#333333] bg-transparent px-6 py-3 text-center text-sm font-medium text-white transition-all hover:bg-[#333333]/20 hover:scale-105" href="/Factory">
                                         Learn How It Works
-                            </a>
+                                </a>
+                                <button 
+                                    onClick={() => setIsModalOpen(true)}
+                                    className="w-48 gap-1 rounded-full border border-[#00ff88] bg-[#00ff88]/10 px-6 py-3 text-center text-sm font-medium text-[#00ff88] transition-all hover:bg-[#00ff88]/20 hover:scale-105"
+                                >
+                                    View Pitch Deck
+                                </button>
                         </div>
+                        <PitchDeckModal isOpen={isModalOpen} onClose={() => setIsModalOpen(false)} />
                     </div>
                 </div>
             </div>
