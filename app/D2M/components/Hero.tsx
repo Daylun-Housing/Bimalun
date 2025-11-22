@@ -178,19 +178,23 @@ export default function Hero() {
                             </div>
                             <h1 className="font-[var(--font-display)] font-bold bg-gradient-to-b from-white to-[#6b7280] bg-clip-text py-4 text-center text-2xl text-transparent text-[#b5bac4] md:text-4xl lg:text-7xl" style={{opacity: 1, transform: 'none'}}>D2M<br /> is Coming Soon</h1>
                             <p className="font-[var(--font-body)] mx-auto max-w-2xl py-4 text-left text-base text-[#b5bac4] md:text-lg" style={{opacity: 1, transform: 'none',}}>
-                                We’re excited to announce that our House Builder platform is currently in development — a powerful, all-in-one tool designed to revolutionize how you plan and build your home. Our team, led by Daylun, is working hard on an innovative system that will allow you to:
-                            </p>
+                            We’re excited to announce that our House Builder platform is
+                            currently in development: a powerful, all-in-one tool designed to
+                            revolutionize how you plan and build your home. Our team at Daylun is working hard on an innovative system that will allow
+                            you to:                            </p>
                             <ul className="list-decimal font-[var(--font-body)] mx-auto max-w-2xl py-4 text-left text-base text-[#b5bac4] md:text-lg" style={{opacity: 1, transform: 'none',}}>
                                 <li>Enter your custom house size</li>
                                 <li>Instantly generate a 3D model file</li>
                                 <li>Receive complete engineering drawings for permitting and construction</li>
                                 <li>Get a 3D interior design model to collaborate with your architect or designer</li>
-                                <li>Automatically place an order in our factory, with</li>
+                                <li>Seamlessly place an order in our factory, with</li>
                                 <li>Real-time pricing based on your selections and specifications</li>
                             </ul>
                             <p className="font-[var(--font-body)] mx-auto max-w-2xl py-4 text-left text-base text-[#b5bac4] md:text-lg" style={{opacity: 1, transform: 'none',}}>
-                                Whether you’re an architect, a designer, or planning your dream home; this tool will streamline everything from concept to construction. Stay tuned. The future of home building is almost here.
-                            </p>
+                            Whether you’re an architect, a designer, or planning your dream
+                            home; this tool will streamline everything from concept to
+                            construction. The future of home building is almost
+                            here. Stay tuned!                            </p>
                             <div className="flex flex-col items-center gap-4 py-4 sm:flex-row" style={{opacity: 1, transform: 'none'}}>
                                 {/*<a className="w-48 gap-1 rounded-full border border-[#00ff88] bg-[#00ff88] px-6 py-3 text-center text-sm font-medium text-[#1a1a1a] transition-all hover:bg-[#00ff88]/90 hover:scale-105" href="#">Discover the Future</a>
                                 <a className="w-48 gap-1 rounded-full border border-[#333333] bg-transparent px-6 py-3 text-center text-sm font-medium text-white transition-all hover:bg-[#333333]/20 hover:scale-105" href="#">
