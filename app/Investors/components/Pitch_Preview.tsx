@@ -8,7 +8,7 @@ export default function PdfPreview() {
                 </div>
             </div>
             <div className="w-2/3 h-screen p-4">
-                <iframe src="/pdf/Daylun_Micro_factory_Pitch_Deck.pdf"
+                <iframe src="DaylunConstruction&Materials.pdf"
                         className="w-full h-full border rounded-lg shadow" style={{border:'none', height:'80%'}}/>
             </div>
 
